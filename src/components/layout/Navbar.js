@@ -15,11 +15,11 @@ export class Navbar extends Component {
 
   render() {
     return (
-      <div>
+      <nav className="navbar bg-primary">
         <h1>
           <i className={this.props.icon} /> { this.props.title }
         </h1>
-      </div>
+      </nav>
     )
   }
 }
